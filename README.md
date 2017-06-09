@@ -2,8 +2,8 @@
 
 - build order
 
-cd ~/gazebo_plugin_tutorial/build
+  cd ~/gazebo_plugin_tutorial/build
 
-cmake ../
+  cmake ../
 
-make
+  make
