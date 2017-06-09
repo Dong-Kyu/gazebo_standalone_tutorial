@@ -1,19 +1,21 @@
 # gazebo_standalone_tutorial
 
-- build order
+- Build order
 
-  1. cd ~/gazebo_plugin_tutorial/build
+  1. Type "cd ~/gazebo_plugin_tutorial/build"  on Terminal
 
-  2. cmake ../
+  2. Type "cmake ../"
 
-  3. make
+  3. Type "make"
 
-- running order
+- Running order
 
   1. Type "cd ~/gazebo_plugin_tutorial" on Terminal
   
-  2. Type "gzserver --verbose -u model_push.world" on Terminal
+  2. Type "gzserver --verbose -u model_push.world"
   
-  3. Type "gzclient" on Terminal
+  3. Type "gzclient" on the other Terminal (ctrl + shift + t)
   
-  4. If client is halted, click the play button on bottom side bar
+  4. Client should be run, if gazebo installation is done
+  
+  5. If client is halted, click the play button on bottom side bar
